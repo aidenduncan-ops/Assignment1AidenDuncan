@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+main {
+    color: rgb(46, 49, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* Headings */
+#h1 {
+    color: rgb(124, 123, 123);
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+
+/* Page wrapper */
+#wrapper {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(46, 49, 50);
+    padding: 1px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin-bottom:30px;
+    
+}
+img {
+    float: right;
+    margin-right: 5%;
+    margin-top: 80px;
+    width: 200px;
+    height: auto;
+    background: lightgrey;
+    padding: 3px;
+}
+
+
+/* Columns */
+#left-column,
+#right-column {
+    width: 28%;
+    min-height: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    color: rgb(107, 104, 104);
+}
+
+/* Left column */
+#left-column {
+    float: left;
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Right column */
+#right-column {
+    float: right;
+    background-color: rgb(55, 58, 60);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#page-text {
+    float: right;
+    margin-left: 20%;
+    margin-top:2%;
+    max-width: 24%;
+    color:antiquewhite;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display:block;
+    color: rgb(249, 244, 244);
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    margin-top : 2px;
+    margin-bottom: 2px;
+    background: linear-gradient(180deg, rgb(43, 43, 43), rgb(4,4,4));
+}
+
+body
+{
+    Margin: 0;
+    padding:0;
+    background:  rgb(46, 49, 50);
+    color: rgb(95, 97, 100);
+    text-align: center;
+}
+#banner
+{
+    color:rgb(112, 112, 112)
+}
+#left-column a {
+    display: block;              /* makes each link its own button */
+    background-color: #333434;   /* button color */
+    color: rgb(121, 115, 115);                /* text color */
+    padding: 12px 15px;          /* button size */
+    margin: 8px 0;               /* spacing between buttons */
+    text-decoration: none;       /* remove underline */
+    border-radius: 6px;          /* rounded corners */
+    font-weight: bold;
+    transition: .5s       /* smooth hover effect */
+}
+
+#left-column a:hover {
+    background-color: #357ABD;   /* darker on hover */
+}
+label {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: rgb(230, 230, 230);
+    border-radius: 6px; 
+}
+
+
+input[type="text"] {
+    background-color: rgb(55, 58, 60);
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(80, 80, 80);
+}
+
+input[type="email"] {
+    width: 50%;
+    background-color: rgb(55, 58, 60);
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(80, 80, 80);
+}
+
+input[type="number"] {
+    background-color: rgb(55, 58, 60);
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(80, 80, 80);
+}
+
+textarea {
+    background-color: rgb(55, 58, 60);
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(80, 80, 80);
+    text-align:center;
+}
+
+
+
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: rgb(35, 35, 35);
+    color: white;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background: #e66b00;
+}
+
+/* Reset button — stacked */
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(80, 80, 80);
+    background-color: rgb(35, 35, 35);
+    color: white;
+    transition: 0.5s;
+}
+
+input[type="reset"]:hover {
+    background: #e66b00;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
