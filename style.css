@@ -195,7 +195,9 @@ form {
     line-height: 1.5;
 }
 figure {
-    text-align: center; /*centers text*/
+   
+    width: 60%;
+    text-align: center; /*moves text position to the left*/
     margin: 20px auto; /* centers the entire block */
 }
 
@@ -203,5 +205,12 @@ figcaption {
     margin-bottom:10px; /*spaces between caption and image */
     font-size: 16px;
 }
-
+figure img {
+    float: right;
+    display : block;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    margin-right: -20%;
+}
 
