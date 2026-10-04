@@ -27,7 +27,7 @@ main {
     
 }
 img {
-    float: right;
+
     margin-right: 5%;
     margin-top: 80px;
     width: 200px;
@@ -50,7 +50,7 @@ img {
 
 /* Left column */
 #left-column {
-    float: left;
+
     background-color: rgb(30, 30, 30);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
     text-align: center;
@@ -195,7 +195,7 @@ form {
     line-height: 1.5;
 }
 figure {
-   
+    
     width: 60%;
     text-align: center; /*moves text position to the left*/
     margin: 20px auto; /* centers the entire block */
@@ -206,11 +206,11 @@ figcaption {
     font-size: 16px;
 }
 figure img {
-    float: right;
+    float: right; /*sticks image to right side of screen */
     display : block;
     margin: 10px;
     width: 200px;
     height: auto;
-    margin-right: -20%;
+    margin-right: -20%; /*controls images distance form right margin */
 }
 

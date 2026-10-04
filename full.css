@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+img {
+    float: right;
+
+}
+#left-column {
+    float: left;
+    width: 25%;
+}
+#about-text {
+    width: 50%;
+}
+img {
+    float: right;
+    margin-right: 5%;
+    margin-top: 80px; 
+}
+#banner {
+    clear: both;
+}
