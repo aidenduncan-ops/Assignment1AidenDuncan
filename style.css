@@ -194,6 +194,14 @@ form {
     color: antiquewhite;
     line-height: 1.5;
 }
+figure {
+    text-align: center; /*centers text*/
+    margin: 20px auto; /* centers the entire block */
+}
 
+figcaption {
+    margin-bottom:10px; /*spaces between caption and image */
+    font-size: 16px;
+}
 
 
