@@ -2,47 +2,52 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>ContactMe</title>
+        <title>My Projects</title>
         <meta name="viewport" content="width=device-width">
-        <link href="style.css" rel="stylesheet">
-        <link href="full.css" rel="stylesheet"
-        media="only screen and (min-width:960px)">
-        <link href="tablet.css" rel="stylesheet" type="text/css"
-        media="only screen and (min-width:481px) and (max-width:959px)">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="full.css" media="only screen and (min-width:960px)">
+        <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
         <!--style sheet is for smart phone-->
-        <link href="smartphone.css" rel="stylesheet"
-        media="only screen and (max-width:480px)">
+        <link rel="stylesheet" href="smartphone.css" media="only screen and (max-width:480px)">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--imports pre built fonts for use in website-->
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--imports pre built fonts for use in website-->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div id="wrapper"> <!--wraps below code in wrapper-->
+            
             <div id="banner"><!--does the same as the wrapper above-->
                 <h1 id="h1"> <!--gives portfolio a unique id so it can be edited by itself-->
-                    My Portfolio
-                    <img src="C:\Users\aiden\Downloads\portfolio proj\images\me.jpg" alt="its just me"> <!--references the image of myself for use on the homepage-->
+                    Projects By Me
                 </h1>
             </div>
             <div id="left-column"> <!--denotes the content in the left column, which happens to be navigation bar-->
                 <nav>Sections</nav>
                 
                 
-                    <a href="portfolio.html">Main Page</a> <!--each page is referenced by one of these hyperlinks-->
+                    <a href="homepage.html">Main Page</a> <!--each page is referenced by one of these hyperlinks-->
                     <a href="contactinfo.html">Contact Me</a>
                     <a href="projects.html">Past Projects</a>
                     <a href="aboutme.html">About Me</a>
                 
             </div>
-        <article>
-            <section>
-                <h2>
-                    Project One
+            <article>
+                <section>
+                <h2 id="h2">
+                    <p>Project One</p>
                 </h2>
                 <p>
                 Me and my other group members had to design a theoretical networking scheme for a fictional company named Cryptomine
                 </p>
-            </section>
-
-        </article>
+                </section>
+            </article>
+        </div>
+        
+        <div id = "footer"> <!--footer content-->
+                <p>Email: aiden.duncan@ontariotechu.net</p>
+                <p>Tel:647-458-8589</p>
+                <p>©2026 Aiden Duncan</p>
+        </div>
+    </body>
+</html>
