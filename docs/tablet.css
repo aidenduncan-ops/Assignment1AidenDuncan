@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
-/* Slightly larger base text for tablets */
+/*larger base text for tablets*/
 body {
     font-size: 16px;
 }
 
-/* Wrapper gets comfortable padding */
+/*Wrapper gets better padding*/
 #wrapper {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-/* Banner adjusts for tablet width */
+/*Banner adjusts for tablet width*/
 #banner {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +21,7 @@ body {
     font-size: 28px;
 }
 
-/* Navigation stays left but gets more spacing */
+/*Navigation stays left but gets more spacing*/
 #nav {
     float: left;
     width: 220px;
@@ -29,9 +29,9 @@ body {
     color:rgb(110, 110, 111);
 }
 
-/* Text beside navigation gets wider */
 
-/* Footer text spacing for tablets */
+
+/*Footer text spacing for tablets*/
 #footer p {
     margin-top: 4px;
     margin-bottom: 4px;
