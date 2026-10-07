@@ -8,8 +8,9 @@ main {
 
 #h1 {
     color: #5C0E0E;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 5%;
+    text-align: center;
 }
 
 #wrapper {
@@ -205,38 +206,43 @@ figure img {
     height: auto;
     margin-right: -20%;
 }
-.project {
-    width: 70%;
-    margin: 20px auto 50px auto;
-    min-height: 220px;
-    text-align: left;
-}
-
-.project img {
-    float: right;
-    width: 250px;
-    height: auto;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: #7D6161;
-}
-
-.project h3 {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-    margin: 0;
+article {
+    margin-left: 30%;
+    width: 68%;
+    box-sizing: border-box;
 }
 
 .project-title {
     text-align: center;
     color: #6B384A;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
-article{
-    margin-left: 30%;
-    width: 68%;
+.project {
+    width: 90%;
+    margin: 0 auto 60px auto;
+    min-height: 220px;
+    text-align: left;
+    overflow: auto;
+}
+
+.project img {
+    float: right;
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #7D6161;
+}
+
+.project h3 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: normal;
 }
