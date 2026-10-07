@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 img {
-    float: right;
+    float: right; /*controls how images appear on desktop*/
 
 }
 #left-column {
-    float: left;
+    float: left; /*enables the navigation bar to float freely on the page in a specific area*/
     width: 25%;
 }
 #about-text {
-    width: 50%;
+    width: 50%;/*defines the appearance of text in fullscreen*/
 }
 img {
     float: right;
