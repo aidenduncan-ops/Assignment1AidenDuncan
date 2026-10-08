@@ -1,11 +1,11 @@
-@charset "UTF-8";
-
+/*controls the main content's color, font, and spacing*/
 main {
     color: #6B384A;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
 
+/*controls the appearance, position, and alignment of the main heading*/
 #h1 {
     color: #5C0E0E;
     margin-bottom: 20px;
@@ -13,6 +13,7 @@ main {
     text-align: center;
 }
 
+/*controls the overall size, background, spacing, and minimum height of the webpage*/
 #wrapper {
     width: 100%;
     min-height: 100vh;
@@ -24,6 +25,7 @@ main {
     margin-bottom: 30px;
 }
 
+/*controls the default size and appearance of images*/
 img {
     width: 200px;
     height: auto;
@@ -31,6 +33,7 @@ img {
     padding: 3px;
 }
 
+/*controls the general layout and appearance of the left and right columns*/
 #left-column,
 #right-column {
     margin-top: 10%;
@@ -42,6 +45,7 @@ img {
     color: #6B384A;
 }
 
+/*controls the left navigation column and its background and shadow*/
 #left-column {
     float: left;
     width: 28%;
@@ -50,12 +54,14 @@ img {
     text-align: center;
 }
 
+/*controls the right column and positions it on the right side of the page*/
 #right-column {
     float: right;
     background-color: #F5EDED;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
+/*controls the position, size, alignment, and color of the page text*/
 #page-text {
     align-content: center;
     margin-left: 40%;
@@ -65,6 +71,7 @@ img {
     font-size: 30px;
 }
 
+/*controls the appearance and position of the footer*/
 #footer {
     position: fixed;
     bottom: 0;
@@ -80,6 +87,7 @@ img {
     background: linear-gradient(180deg, #5C0E0E, #424242);
 }
 
+/*controls the default spacing, background, text color, and alignment of the webpage*/
 body {
     Margin: 0;
     padding: 0;
@@ -88,10 +96,12 @@ body {
     text-align: center;
 }
 
+/*controls the color of the banner section*/
 #banner {
     color: #5C0E0E;
 }
 
+/*controls the appearance and layout of links inside the navigation column*/
 #left-column a {
     display: block;
     background-color: #6B384A;
@@ -104,10 +114,12 @@ body {
     transition: .5s;
 }
 
+/*changes the navigation link background color when the mouse hovers over it*/
 #left-column a:hover {
     background-color: #A61212;
 }
 
+/*controls the appearance and spacing of form labels*/
 label {
     display: block;
     font-size: 22px;
@@ -116,12 +128,14 @@ label {
     border-radius: 6px;
 }
 
+/*controls the appearance of text input fields*/
 input[type="text"] {
     background-color: white;
     color: #6B384A;
     border: 1px solid #7D6161;
 }
 
+/*controls the width, color, and border of email input fields*/
 input[type="email"] {
     width: 50%;
     background-color: white;
@@ -129,12 +143,14 @@ input[type="email"] {
     border: 1px solid #7D6161;
 }
 
+/*controls the appearance of number input fields*/
 input[type="number"] {
     background-color: white;
     color: #6B384A;
     border: 1px solid #7D6161;
 }
 
+/*controls the appearance and text alignment of text areas*/
 textarea {
     background-color: white;
     color: #6B384A;
@@ -142,6 +158,7 @@ textarea {
     text-align: center;
 }
 
+/*controls the size, spacing, color, and appearance of the submit button*/
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -153,10 +170,12 @@ input[type="submit"] {
     transition: 0.5s;
 }
 
+/*changes the submit button color when the mouse hovers over it*/
 input[type="submit"]:hover {
     background: #A61212;
 }
 
+/*controls the size, spacing, color, and appearance of the reset button*/
 input[type="reset"] {
     width: 100%;
     padding: 10px;
@@ -168,16 +187,19 @@ input[type="reset"] {
     transition: 0.5s;
 }
 
+/*changes the reset button color when the mouse hovers over it*/
 input[type="reset"]:hover {
     background: #A61212;
 }
 
+/*controls the maximum width, spacing, and alignment of the form*/
 form {
     max-width: 500px;
     margin: 20px auto;
     border-radius: 6px;
 }
 
+/*controls the width, position, alignment, and spacing of the About Me text*/
 #about-text {
     clear: left;
     width: 50%;
@@ -187,17 +209,20 @@ form {
     line-height: 1.5;
 }
 
+/*controls the size, alignment, and position of the figure section*/
 figure {
     width: 60%;
     text-align: center;
     margin: 20px auto;
 }
 
+/*controls the appearance and spacing of the figure caption text*/
 figcaption {
     margin-bottom: 10px;
     font-size: 22px;
 }
 
+/*controls how the image behaves inside the figure semantic section*/
 figure img {
     float: right;
     display: block;
@@ -206,12 +231,15 @@ figure img {
     height: auto;
     margin-right: -20%;
 }
+
+/*controls the position, width, and box sizing of article content*/
 article {
     margin-left: 30%;
     width: 68%;
-    box-sizing: border-box;
+    box-sizing: border-box; /*controls how format box is displayed */
 }
 
+/*sets formatting for project titles*/
 .project-title {
     text-align: center;
     color: #6B384A;
@@ -219,6 +247,7 @@ article {
     margin-bottom: 20px;
 }
 
+/*controls the size, spacing, alignment, and overflow of each project section*/
 .project {
     width: 90%;
     margin: 0 auto 60px auto;
@@ -227,6 +256,7 @@ article {
     overflow: auto;
 }
 
+/*controls the appearance and position of images used in projects*/
 .project img {
     float: right;
     width: 250px;
@@ -238,6 +268,7 @@ article {
     background-color: #7D6161;
 }
 
+/*controls the appearance, spacing, size, and alignment of project headings*/
 .project h3 {
     margin: 0;
     padding-top: 20px;
@@ -245,4 +276,11 @@ article {
     line-height: 1.6;
     text-align: left;
     font-weight: normal;
+}
+
+/*controls the position and alignment of the video section*/
+#video {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
 }
