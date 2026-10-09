@@ -14,9 +14,11 @@ The navigation bar contains four sections: Main Page, Contact Me, Past Projects,
 
 ## Page Design and CSS
 
-I chose a simple color scheme consisting mainly of white, burgundy, and dark red. I wanted the website to have a clean appearance while still having enough color to distinguish important elements such as headings, navigation buttons, and the footer.
+I chose a simple custom adobe color scheme consisting mainly of white, burgundy, and dark red. I wanted the website to have a clean appearance while still having enough color to distinguish important elements such as headings, navigation buttons, and the footer.
 
-Most of the general styling is contained in `style.css`, while `full.css`, `tablet.css`, and `smartphone.css` are used to adjust the layout for different screen sizes. The media queries in the HTML determine which stylesheet is used based on the width of the user's screen.
+Most of the general styling is contained in `style.css`, while `full.css`, `tablet.css`, and `smartphone.css` are used to adjust the layout for different screen sizes. The media queries in the HTML determine which stylesheet is used based on the width of the user's screen. According to the theory learnt in class, i used specific boundaries for each view[port, speifying up to 480px for smartphones, up to 959px for tablets and 960px and up for desktops, as these sizes all conform to the usual size of displays of these types.
+
+I used the linear angle gradient in my footer on each webpage just tp spruce up the appearance of each page. It also draws attention to important information like my watermark and contact info.
 
 One of the more important layout choices was using floating elements for the navigation column and some of the images. The navigation column is floated to the left, allowing the main content to occupy the remaining space beside it. Images on the About Me and Projects pages are also floated so that text can wrap around them.
 
